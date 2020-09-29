@@ -64,16 +64,3 @@ dependencies {
 
 }
 
-artifactory {
-    contextUrl = "${my_artifactory_contextUrl}" 
-    resolve {
-        repository {
-            repoKey = 'libs-snapshot'
-            username = "${my_artifactory_user}"
-            password = "${my_artifactory_password}"
-            maven = true
-        }
-    }
-}
-
-
